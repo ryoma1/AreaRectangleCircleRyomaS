@@ -82,3 +82,7 @@ areaTextCircle.y = display.contentHeight/2+100
 areaTextRect:setTextColor(1, 1, 1)
 
 areaTextCircle:setTextColor(1, 1, 1)
+
+local correctSound = audio.loadSound("Sounds/scifi.mp3")
+local correctSoundChannel
+correctSoundChannel = audio.play(correctSound)
