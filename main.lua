@@ -83,6 +83,7 @@ areaTextRect:setTextColor(1, 1, 1)
 
 areaTextCircle:setTextColor(1, 1, 1)
 
+--add sounds
 local correctSound = audio.loadSound("Sounds/scifi.mp3")
 local correctSoundChannel
 correctSoundChannel = audio.play(correctSound)
